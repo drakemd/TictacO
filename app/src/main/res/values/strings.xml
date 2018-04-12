@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TictacO</string>
+    <string name="web_client_key"><!-- put your web client id here --></string>
+    <string name="btn_new_game_string">Create New Game</string>
+    <string name="btn_join_game_string">Join Game</string>
+    <string name="et_game_name_hint">Game Password</string>
+    <string name="waiting_for_another_player">Waiting for another player</string>
+    <string name="game_vs">VS</string>
+</resources>
