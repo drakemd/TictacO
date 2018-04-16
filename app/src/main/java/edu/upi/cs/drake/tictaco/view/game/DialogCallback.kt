@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
-package edu.upi.cs.drake.tictaco.view.mainmenu
+package edu.upi.cs.drake.tictaco.view.game
 
-interface OnOkCallback {
-    fun newGame(password: String)
-    fun joinGame(password: String)
+import android.content.DialogInterface
+
+interface DialogCallback {
+    fun onClickOk()
+    fun onCancel(dialog: DialogInterface)
 }

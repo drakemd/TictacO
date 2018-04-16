@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">TictacO</string>
-    <string name="web_client_key"><!-- put your web client id here --></string>
+    <string name="web_client_key">486592189836-3km08oa2t9g8au2mtpab0uvuvd97l067.apps.googleusercontent.com</string>
     <string name="btn_new_game_string">Create New Game</string>
     <string name="btn_join_game_string">Join Game</string>
     <string name="et_game_name_hint">Game Password</string>
     <string name="waiting_for_another_player">Waiting for another player</string>
     <string name="game_vs">VS</string>
+    <string name="game_enemy_turn">Enemy Turn</string>
+    <string name="game_your_turn">Your Turn</string>
+    <string name="game_wait_player">Waiting another player</string>
+    <string name="string_signin_to_continue">Signin to continue</string>
 </resources>

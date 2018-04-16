@@ -8,10 +8,10 @@ import dagger.Module
 import dagger.Provides
 import edu.upi.cs.drake.tictaco.R
 import edu.upi.cs.drake.tictaco.TicTacOApp
-import edu.upi.cs.drake.tictaco.common.FirebaseUserService
-import edu.upi.cs.drake.tictaco.common.FirestoreGameHelper
-import edu.upi.cs.drake.tictaco.common.FirestoreHelper
-import edu.upi.cs.drake.tictaco.common.UserService
+import edu.upi.cs.drake.tictaco.firestore.FirebaseUserService
+import edu.upi.cs.drake.tictaco.firestore.FirestoreGameHelper
+import edu.upi.cs.drake.tictaco.firestore.FirestoreHelper
+import edu.upi.cs.drake.tictaco.firestore.UserService
 import javax.inject.Singleton
 
 @Module(includes = [ViewModelModule::class])

@@ -2,14 +2,14 @@
     <item>
         <shape android:shape="rectangle">
             <padding android:bottom="3dp" />
-            <solid android:color="@color/colorPrimary" />
+            <solid android:color="@color/colorTitle" />
         </shape>
     </item>
 
     <item>
         <shape android:shape="rectangle">
             <padding android:left="2dp" />
-            <solid android:color="@color/colorPrimary" />
+            <solid android:color="@color/colorTitle" />
         </shape>
     </item>
 

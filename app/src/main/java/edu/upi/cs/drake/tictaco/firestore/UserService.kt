@@ -14,9 +14,14 @@
  * limitations under the License.
  */
 
-package edu.upi.cs.drake.tictaco.view.mainmenu
+package edu.upi.cs.drake.tictaco.firestore
 
-interface OnOkCallback {
-    fun newGame(password: String)
-    fun joinGame(password: String)
+import android.arch.lifecycle.LiveData
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+import edu.upi.cs.drake.tictaco.model.User
+
+interface UserService {
+    fun signInWithGoogle(googleSignInAccount: GoogleSignInAccount)
+    fun getUserLiveData(): LiveData<User>
+    fun getCurrentUser(): User?
 }

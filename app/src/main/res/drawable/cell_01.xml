@@ -2,7 +2,7 @@
     <item>
         <shape android:shape="rectangle">
             <padding android:right="2dp" />
-            <solid android:color="@color/colorPrimary" />
+            <solid android:color="@color/colorTitle" />
         </shape>
     </item>
 
