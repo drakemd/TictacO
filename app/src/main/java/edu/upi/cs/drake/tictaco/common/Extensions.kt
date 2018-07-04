@@ -19,7 +19,6 @@ package edu.upi.cs.drake.tictaco.common
 import android.support.v7.app.AlertDialog
 import edu.upi.cs.drake.tictaco.view.game.DialogCallback
 
-
 //conver string with format "[xx, xx, xx, xx]" to list of Int
 fun String.toIntList(): List<Int> {
     //remove square bracket
